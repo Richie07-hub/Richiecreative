@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Adepitan Richard — Graphic Designer specializing in logo design, brand identity, flyer design, social media graphics, and video editing.">
+  <meta name="keywords" content="graphic design, logo design, branding, flyer design, social media design, video editing, Nigeria designer">
+  <meta name="author" content="Adepitan Richard Adejare">
+  <title>Adepitan Richard | Graphic Designer</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor Elements -->
+  <div class="custom-cursor" id="customCursor"></div>
+  <div class="custom-cursor-follower" id="customCursorFollower"></div>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <header id="header">
+    <div class="nav-container">
+      <a href="#" class="logo" id="logoLink">
+        ADEPITAN RICHARD<span class="logo-dot">.</span>
+      </a>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#" class="nav-link active" id="navHome">Home</a></li>
+        <li><a href="#portfolio" class="nav-link" id="navPortfolio">Work</a></li>
+        <li><a href="#services" class="nav-link" id="navServices">Services</a></li>
+        <li><a href="#process" class="nav-link" id="navProcess">Process</a></li>
+        <li><a href="#contact" class="nav-link" id="navContact">Contact</a></li>
+      </ul>
+
+      <div style="display: flex; align-items: center;">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          <svg class="sun-icon" style="display: none;" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </button>
+        <a href="#contact" class="nav-cta" id="navCta">Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content reveal">
+      <div class="hero-tag">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg>
+        <span>Available for new projects</span>
+      </div>
+      <h1 class="hero-title">
+        Turning Ideas Into <span class="gradient">Bold Visual</span> Identities
+      </h1>
+      <p class="hero-desc">
+        I'm Adepitan Richard — a graphic designer with 7+ years crafting logos, brand identities, flyers, and social media content that captivate audiences and drive results.
+      </p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn btn-primary" id="heroBtnWork">
+          See My Work
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+        <a href="#contact" class="btn btn-secondary" id="heroBtnContact">Let's Talk</a>
+      </div>
+    </div>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar reveal" id="statsBar">
+      <div class="stat-item">
+        <div class="stat-number">250+</div>
+        <div class="stat-label">Projects Completed</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">7+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">9+</div>
+        <div class="stat-label">Logo Brands Created</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Client Satisfaction</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <span class="section-tag">Showcase</span>
+    <h2 class="section-title">Featured Works</h2>
+    <p class="section-desc">A curated selection of logos, brand identities, flyers, and social media designs I've delivered for real clients.</p>
+ 
+    <!-- Portfolio Grid -->
+    <div class="portfolio-grid">
+      <div class="portfolio-item reveal" data-id="1">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/1.png" alt="Design Work 1">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="2">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/2.png" alt="Design Work 2">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="3">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/3.png" alt="Design Work 3">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="4">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/4.png" alt="Design Work 4">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="5">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/5.png" alt="Design Work 5">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="6">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/6.png" alt="Design Work 6">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="7">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/7.png" alt="Design Work 7">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="8">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/8.png" alt="Design Work 8">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="9">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/9.jpg" alt="Design Work 9">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="10">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/10.png" alt="Design Work 10">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="11">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/11.png" alt="Design Work 11">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="12">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/12.png" alt="Design Work 12">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="13">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/13.png" alt="Design Work 13">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="14">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/14.png" alt="Design Work 14">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="15">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/15.png" alt="Design Work 15">
+        </div>
+      </div>
+      <div class="portfolio-item reveal" data-id="16">
+        <div class="portfolio-img-container">
+          <img class="portfolio-img" src="./assets/16.png" alt="Design Work 16">
+        </div>
+      </div>
+    </div>
+ 
+    <!-- View All Work Button -->
+    <div style="text-align: center; margin-top: 48px;">
+      <a href="https://pin.it/7DCaOANHG" class="btn btn-primary" id="viewAllWork">
+        View All Work
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <span class="section-tag">Expertise</span>
+    <h2 class="section-title">What I Offer</h2>
+    <p class="section-desc">End-to-end design services built around your brand goals — from concept to final deliverable.</p>
+
+    <div class="services-grid">
+      <!-- Service 1 -->
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+        </div>
+        <h3 class="service-title">Logo & Brand Identity</h3>
+        <p class="service-desc">Custom logo mark creation across any industry — from cosmetics to construction. Includes logo variants, color palette, and basic brand guidelines. Delivered in Photoshop & Illustrator formats.</p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+        </div>
+        <h3 class="service-title">Flyer & Social Media Design</h3>
+        <p class="service-desc">Eye-catching promotional flyers, event posters, and social media posts designed to stop the scroll. Suitable for Instagram, Facebook, print, and digital campaigns.</p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="service-card reveal">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+        </div>
+        <h3 class="service-title">Video Ads & Motion</h3>
+        <p class="service-desc">Short-form promotional video content and video advertisements for social media using CapCut. Perfect for product launches, service promotions, and event announcements.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills / Softwares Section -->
+  <section id="skills" style="padding: 80px 5%;">
+    <span class="section-tag">Tools</span>
+    <h2 class="section-title">Software Proficiency</h2>
+    <p class="section-desc">Industry-standard tools used across every project I take on.</p>
+
+    <div class="services-grid" style="margin-top: 40px;">
+      <div class="service-card reveal" style="text-align:center;">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h.01M15 9h.01M9 15h6"/></svg>
+        </div>
+        <h3 class="service-title">Adobe Photoshop</h3>
+        <p class="service-desc">Photo manipulation, flyer design, social media graphics, and digital compositing. Primary tool for raster-based design work.</p>
+      </div>
+
+      <div class="service-card reveal" style="text-align:center;">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 12h3v8h6v-5h2v5h6v-8h3L12 2z"/></svg>
+        </div>
+        <h3 class="service-title">Adobe Illustrator</h3>
+        <p class="service-desc">Vector logo creation, icon design, brand marks, and scalable graphics. Used for all logo and identity deliverables.</p>
+      </div>
+
+      <div class="service-card reveal" style="text-align:center;">
+        <div class="service-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+        </div>
+        <h3 class="service-title">CapCut</h3>
+        <p class="service-desc">Video editing, short-form video ads, motion graphics, and promotional content for social platforms including Instagram and TikTok.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Creative Process Section -->
+  <section id="process">
+    <span class="section-tag">Approach</span>
+    <h2 class="section-title">How I Work</h2>
+    <p class="section-desc">A straightforward creative process built around understanding your goals and delivering on them.</p>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-number">Step 01</span>
+          <h3 class="timeline-title">Brief & Discovery</h3>
+          <p class="timeline-desc">We discuss your business, your target audience, and what you want to communicate. I gather references, understand your niche, and define the visual direction.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-number">Step 02</span>
+          <h3 class="timeline-title">Concept Development</h3>
+          <p class="timeline-desc">I sketch multiple directions and explore typography, color palettes, and layout options that align with your brand personality before moving to software.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-number">Step 03</span>
+          <h3 class="timeline-title">Design & Refinement</h3>
+          <p class="timeline-desc">Final design execution in Photoshop or Illustrator. I present the design, collect your feedback, and refine until it's exactly right — within an agreed revision count.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-number">Step 04</span>
+          <h3 class="timeline-title">Delivery</h3>
+          <p class="timeline-desc">You receive high-resolution files in all formats you need — PNG, JPG, PDF, and editable source files. Fast turnaround, no drama.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <span class="section-tag">Reviews</span>
+    <h2 class="section-title">What Clients Say</h2>
+    <p class="section-desc">Feedback from brands and businesses I've had the pleasure of working with.</p>
+
+    <div class="slider-container reveal">
+      <div class="testimonial-slider" id="testimonialSlider">
+        <!-- Slide 1 -->
+        <div class="testimonial-slide">
+          <p class="testimonial-quote">
+            "Richard delivered everything on time and the quality was top-notch. Our social media engagement went up noticeably after the new graphics went live."
+          </p>
+          <div class="testimonial-author">
+            <span class="author-name">Herbit Client</span>
+            <span class="author-role">Social Media Manager, Herbit</span>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="testimonial-slide">
+          <p class="testimonial-quote">
+            "The logo he designed for our brand was clean, professional, and exactly what we envisioned. He understood the brief immediately and nailed it on the first revision."
+          </p>
+          <div class="testimonial-author">
+            <span class="author-name">360 Business</span>
+            <span class="author-role">Brand Owner, 360 Business</span>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="testimonial-slide">
+          <p class="testimonial-quote">
+            "Great communicator and creative thinker. He brought our flyer concept to life in a way we couldn't have imagined. Would definitely recommend."
+          </p>
+          <div class="testimonial-author">
+            <span class="author-name">Personal Brand Client</span>
+            <span class="author-role">Entrepreneur, Lagos</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="slider-controls">
+        <button class="slider-btn" id="prevBtn" aria-label="Previous Testimonial">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+        <button class="slider-btn" id="nextBtn" aria-label="Next Testimonial">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <span class="section-tag">Let's Connect</span>
+    <h2 class="section-title">Start a Project With Me</h2>
+    <p class="section-desc">Have a design need? Whether it's a logo, flyer, or full brand package — reach out and let's make something great.</p>
+
+    <div class="contact-container reveal">
+      <div class="contact-info">
+        <div>
+          <h3>Contact Info</h3>
+          <p style="color: var(--text-secondary); margin-top: 10px;">Based in Ogun State, Nigeria. Available for remote work worldwide.</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>adepitanrichard4@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-text">
+                <h4>Phone / WhatsApp</h4>
+                <p>07032073190 / 07018727912</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>7 Itesiwaju Ogo Road, Aseese, Mowe/Ibafo, Ogun State</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="mailto:adepitanrichard4@gmail.com" class="social-btn" aria-label="Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+          <a href="https://wa.me/2347032073190" class="social-btn" aria-label="WhatsApp" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label for="formName">Full Name</label>
+          <input type="text" id="formName" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="formEmail">Email Address</label>
+          <input type="email" id="formEmail" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="formMessage">Your Message</label>
+          <textarea id="formMessage" rows="5" placeholder="Tell me about your design needs — logo, flyer, social media..." required></textarea>
+        </div>
+        <button type="submit" class="form-submit-btn" id="formSubmit">Send Message</button>
+        <div class="form-message" id="formResponse"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Project Details Modal -->
+  <div class="project-modal" id="projectModal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modalClose" aria-label="Close Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="modal-img-container">
+        <img id="modalImg" src="./assets/design 2.png" alt="Project Details">
+      </div>
+      <div class="modal-body">
+        <span class="portfolio-category" id="modalCategory">Logo & Branding</span>
+        <h3 class="portfolio-title" id="modalTitle" style="font-size: 32px; margin-top: 10px;">Multi-Brand Logo Collection</h3>
+        <p id="modalDesc" style="color: var(--text-secondary); margin-top: 16px; font-size: 16px; line-height: 1.7;">
+          A collection of logo designs created for various clients including Akindele's General Printing & Branding, Dorcy Gloss, High Five International, Shine B, Timjos Construct, Lira Organics, Vogue Apparels, Temmy Empire, and 1stKingShow Energy Solutions.
+        </p>
+        <div class="modal-meta-grid">
+          <div class="modal-meta-item">
+            <h5>Clients</h5>
+            <p id="modalClient">Multiple Brands</p>
+          </div>
+          <div class="modal-meta-item">
+            <h5>Industries</h5>
+            <p id="modalIndustry">Beauty, Construction, Energy, Fashion</p>
+          </div>
+          <div class="modal-meta-item">
+            <h5>Services</h5>
+            <p id="modalServices">Logo Design, Brand Identity</p>
+          </div>
+          <div class="modal-meta-item">
+            <h5>Tools</h5>
+            <p id="modalYear">Photoshop, Illustrator</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <a href="#" class="footer-logo">ADEPITAN RICHARD</a>
+      <div class="footer-copyright">&copy; 2026 Adepitan Richard Adejare. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
